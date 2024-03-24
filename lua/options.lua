@@ -22,4 +22,3 @@ opt.wrap = false
 -- search options - no highlight, yes incremental search
 opt.hlsearch = false
 opt.incsearch = true
-

@@ -21,9 +21,9 @@ return {
         },
       },
     })
-    keymap.set("n", "<leader>ff", builtin.find_files, {}) -- find files
+    keymap.set("n", "<leader>ff", builtin.find_files, {})  -- find files
     keymap.set("n", "<leader>fc", builtin.grep_string, {}) -- find string under cursor
-    keymap.set("n", "<leader>fs", builtin.live_grep, {}) -- search for a string
-    keymap.set("n", "<leader>pp", builtin.planets, {}) -- fun easter egg 
+    keymap.set("n", "<leader>fs", builtin.live_grep, {})   -- search for a string
+    keymap.set("n", "<leader>pp", builtin.planets, {})     -- fun easter egg
   end,
 }

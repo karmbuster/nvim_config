@@ -1,7 +1,7 @@
 -- change leader ey to spacebar
 vim.g.mapleader = " "
 
--- source file 
+-- source file
 local keymap = vim.keymap
 keymap.set("n", "<leader>so", "<cmd>so<cr>")
 keymap.set("n", "<leader>e", "<cmd>Ex<cr>")
@@ -23,4 +23,3 @@ vim.keymap.set("n", "N", "Nzzzv")
 
 -- paste but dont put highlighted text to be replaced into the buffer
 vim.keymap.set("x", "<leader>p", "\"_dP")
-
