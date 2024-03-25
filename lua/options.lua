@@ -1,13 +1,11 @@
 local opt = vim.opt
 
-
 -- line number settings
 opt.nu = true
 opt.rnu = true
 
 -- fat cursor
 opt.guicursor = ""
-
 
 -- setting up tab/spaces
 opt.tabstop = 2
